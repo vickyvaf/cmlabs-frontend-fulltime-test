@@ -31,6 +31,7 @@ export default function Banner({ setSearch, search }: Props) {
         <input
           value={search}
           onChange={(e) => setSearch(e.target.value)}
+          placeholder="Search..."
           className="bg-white p-2 pr-4 md:pr-6 md:py-2 md:px-2 outline-none w-[500px] font-main"
         />
         <AiOutlineSearch className="cursor-pointer absolute right-3 w-5 h-5" />
